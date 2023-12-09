@@ -12,7 +12,7 @@ const firebaseConfig = {
   measurementId: "G-J8DJWM39K4",
 };
 const firebaseApp = initializeApp(firebaseConfig);
-const db = firebaseApp.firestore();
+// const db = firebaseApp.firestore();
 // const auth = firebase.auth();
 const auth = getAuth();
 export { auth };
